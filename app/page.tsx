@@ -176,7 +176,7 @@ export default function Home() {
               <span className="h-px w-10 bg-[#171717]" />
 
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#666]">
-                Technical Product Manager · Lagos, Nigeria
+                Product Manager · Lagos, Nigeria
               </p>
             </div>
 
@@ -240,7 +240,7 @@ export default function Home() {
                 {/* Profile image */}
                 <div className="relative h-full w-full overflow-hidden rounded-[160px] bg-[#dedbd2]">
                   <Image
-                    src="/images/profile.jpeg"
+                    src="/portfolio/images/profile.jpeg"
                     alt="Sinminsola Fashanu"
                     fill
                     sizes="(max-width: 640px) 300px, 370px"

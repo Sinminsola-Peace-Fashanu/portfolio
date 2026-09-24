@@ -15,13 +15,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sinminsola Fashanu | Technical Product Manager",
+  title: "Sinminsola Fashanu | Product Manager",
   description:
-    "Sinminsola Fashanu —  Technical Product Manager focused on building thoughtful digital products that solve real problems.",
+    "Sinminsola Fashanu —  Product Manager focused on building thoughtful digital products that solve real problems.",
   openGraph: {
-    title: "Sinminsola Fashanu | Technical Product Manager",
+    title: "Sinminsola Fashanu | Product Manager",
     description:
-      "Technical Product Manager focused on building thoughtful digital products that solve real problems.",
+      "Product Manager focused on building thoughtful digital products that solve real problems.",
     type: "website",
   },
 };
