@@ -176,7 +176,7 @@ export default function Home() {
               <span className="h-px w-10 bg-[#171717]" />
 
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#666]">
-                Product Manager · Lagos, Nigeria
+                Product Manager · Lagos, Nigeria · Open to Global Roles
               </p>
             </div>
 
@@ -187,7 +187,7 @@ export default function Home() {
 
             <div className="mt-9">
               <p className="max-w-xl text-base leading-7 text-[#62605b] sm:text-lg">
-                I&apos;m Simi, a Product Manager who combines product thinking with a growing technical foundation to turn customer needs and business challenges into practical digital solutions.
+                I&apos;m Simi, a Product Manager who combines product thinking with a growing technical foundation to turn customer needs and business vision & challenges into practical digital solutions.
               </p>
 
               {/* PRIMARY CTA */}
@@ -202,6 +202,8 @@ export default function Home() {
                     ↗
                   </span>
                 </a>
+
+                
               </div>
 
               {/* HERO LINKS */}
@@ -222,7 +224,6 @@ export default function Home() {
                   Email ↗
                 </a>
 
-                <span>Open to global roles</span>
               </div>
             </div>
           </div>
@@ -508,7 +509,15 @@ export default function Home() {
                 <div className="relative min-h-[360px] overflow-hidden bg-[#dedbd2] p-8 text-[#171717] lg:min-h-full">
                   <div className="absolute left-10 top-10 h-32 w-32 rounded-full border border-[#171717]/15" />
 
-                  <div className="absolute right-10 top-20 h-48 w-48 rounded-[2rem] border border-[#171717]/10" />
+                  <div className="relative min-h-[360px] overflow-hidden bg-[#dedbd2] lg:min-h-full">
+  <Image
+    src="/portfolio/images/marketskip/marketskip.png"
+    alt="MarketSkip interface"
+    fill
+    className="object-cover"
+    sizes="(max-width: 1024px) 100vw, 45vw"
+  />
+</div>
 
                   <div className="absolute bottom-10 left-10 right-10 rounded-[1.5rem] border border-[#171717]/15 bg-[#f7f5f0]/60 p-6 backdrop-blur-sm">
                     <p className="text-xs uppercase tracking-[0.15em] text-[#777]">
