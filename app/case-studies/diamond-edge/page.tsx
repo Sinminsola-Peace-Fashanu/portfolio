@@ -10,7 +10,7 @@ export default function DiamondEdgeCaseStudy() {
 
         <a
           href="/"
-          className="text-sm transition-opacity hover:opacity-50"
+          className="text-[#171717] transition-opacity hover:opacity-50"
         >
           ← Back to portfolio
         </a>
@@ -161,7 +161,7 @@ export default function DiamondEdgeCaseStudy() {
             The Problem
           </p>
 
-          <div className="mt-10 grid gap-12 md:grid-cols-2">
+          <div className="mt-14 grid gap-12 md:grid-cols-2">
 
             <div>
               <h2 className="text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
@@ -538,13 +538,13 @@ export default function DiamondEdgeCaseStudy() {
             More From My Portfolio
           </p>
 
-          <h2 className="mt-6 max-w-3xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+          <h2 className="mt-10 max-w-3xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
             Interested in how I approach product problems?
           </h2>
 
           <a
             href="/#work"
-            className="mt-9 inline-flex rounded-full bg-white px-7 py-4 text-sm font-medium text-[#1f1f1f] transition hover:opacity-80"
+            className="mt-10 inline-flex rounded-full bg-white px-7 py-4 text-sm font-medium text-[#1f1f1f] transition hover:opacity-80"
           >
             Back to my work →
           </a>

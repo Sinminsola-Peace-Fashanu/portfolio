@@ -290,7 +290,7 @@ export default function Home() {
                 product opportunities.
               </h2>
 
-              <div className="mt-10 grid gap-8 text-base leading-8 text-[#5c5c5c] md:grid-cols-2">
+              <div className="mt-14 grid gap-8 text-base leading-8 text-[#5c5c5c] md:grid-cols-2">
                 <p>
                   I’m a Product Manager with experience across marketplaces, logistics, payments, e-commerce, and service-oriented digital products. I work at the intersection of customer needs, business goals, design, and technology to turn complex problems into practical, user-focused product solutions.
                   From discovery and requirements definition to prioritisation, delivery, and continuous improvement, I collaborate closely with Engineering, Design, Operations, and business stakeholders to move products from ideas to meaningful outcomes.
@@ -545,7 +545,7 @@ export default function Home() {
                 02 — Logistics
               </p>
 
-              <h3 className="mt-10 text-4xl font-medium tracking-[-0.03em]">
+              <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
                 Faramove
               </h3>
 
@@ -555,7 +555,7 @@ export default function Home() {
                 platform adoption by 25%.
               </p>
 
-              <div className="mt-10 flex flex-wrap gap-2">
+              <div className="mt-14 flex flex-wrap gap-2">
                 {["Logistics", "Payments", "Growth"].map((tag) => (
                   <span
                     key={tag}
@@ -572,7 +572,7 @@ export default function Home() {
                 03 — E-commerce
               </p>
 
-              <h3 className="mt-10 text-4xl font-medium tracking-[-0.03em]">
+              <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
                 ShopOnAlpha
               </h3>
 
@@ -582,7 +582,7 @@ export default function Home() {
                 failed transactions from 9.2% to 2.1%.
               </p>
 
-              <div className="mt-10 flex flex-wrap gap-2">
+              <div className="mt-14 flex flex-wrap gap-2">
                 {["E-commerce", "Escrow", "Growth"].map((tag) => (
                   <span
                     key={tag}
@@ -774,10 +774,10 @@ export default function Home() {
               <span className="italic">magic!</span>
             </h2>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-14 flex flex-wrap gap-4">
               <a
                 href="mailto:sinminsolaf@gmail.com"
-                className="rounded-full bg-[#171717] px-7 py-3.5 text-sm font-medium text-white transition-transform hover:-translate-y-0.5"
+                className="rounded-full border border-[#171717]/20 px-7 py-3.5 text-sm font-medium transition-colors hover:bg-white"
               >
                 sinminsolaf@gmail.com ↗
               </a>

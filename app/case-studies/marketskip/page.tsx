@@ -45,7 +45,7 @@ export default function MarketSkipCaseStudy() {
 
         <Link
           href="/"
-          className="text-sm font-medium text-neutral-600 transition hover:text-black"
+          className="text-[#171717] font-medium text-neutral-600 transition hover:text-black"
         >
           ← Back to portfolio
         </Link>
@@ -62,11 +62,6 @@ export default function MarketSkipCaseStudy() {
             Making local-market shopping more accessible.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-neutral-600 sm:text-xl">
-            How I helped shape MarketSkip’s customer journey around a
-            simpler way for consumers and businesses to communicate what
-            they need from local markets.
-          </p>
         </div>
 
         {/* Project metadata */}
@@ -174,7 +169,7 @@ export default function MarketSkipCaseStudy() {
               behalf.
             </p>
 
-            <div className="mt-10 rounded-2xl bg-[#f7f5f0] p-8">
+            <div className="mt-14 rounded-2xl bg-[#f7f5f0] p-8">
               <p className="text-sm uppercase tracking-widest text-neutral-400">
                 Product challenge
               </p>
@@ -209,7 +204,7 @@ export default function MarketSkipCaseStudy() {
               actually exists instead of relying only on assumptions.
             </p>
 
-            <div className="mt-10 space-y-4">
+            <div className="mt-14 space-y-4">
               {researchItems.map((item, index) => (
                 <div
                   key={item}
@@ -454,7 +449,7 @@ export default function MarketSkipCaseStudy() {
               customers behave like traditional e-commerce shoppers.
             </p>
 
-            <div className="mt-10 border-l-2 border-black pl-6">
+            <div className="mt-14 border-l-2 border-black pl-6">
               <p className="text-xl font-medium leading-8">
                 “This is what I need. Help me get it.”
               </p>
@@ -481,12 +476,12 @@ export default function MarketSkipCaseStudy() {
             </h2>
           </div>
 
-          <Link
-            href="/"
-            className="inline-flex w-fit rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-neutral-200"
-          >
-            Back to portfolio →
-          </Link>
+         <Link
+  href="/"
+  className="inline-flex w-fit rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-neutral-200"
+>
+  <span className="text-black">Back to portfolio →</span>
+</Link>
         </div>
       </section>
     </main>
