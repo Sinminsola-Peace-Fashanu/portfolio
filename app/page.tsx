@@ -499,7 +499,7 @@ export default function Home() {
                   </div>
 
                   <div className="mt-12 inline-flex items-center gap-3 border-b border-white/30 pb-2 text-sm font-medium">
-                    Read case study
+                    View case study
                     <span className="transition-transform duration-300 group-hover:translate-x-1">
                       ↗
                     </span>
@@ -538,105 +538,125 @@ export default function Home() {
             </Link>
           </div>
 
+
           {/* SUPPORTING WORK */}
-          <div className="mt-5 grid gap-5 lg:grid-cols-2">
-            <article className="rounded-[2rem] bg-[#252525] p-7 sm:p-9">
-              <p className="text-xs uppercase tracking-[0.15em] text-white/40">
-                02 — Logistics
-              </p>
+<div className="mt-5 grid gap-5 lg:grid-cols-2">
+  {/* FARAMOVE */}
+  <article className="rounded-[2rem] bg-[#252525] p-7 sm:p-9">
+    <p className="text-xs uppercase tracking-[0.15em] text-white/40">
+      02 — Logistics
+    </p>
 
-              <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
-                Faramove
-              </h3>
+    <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
+      Faramove
+    </h3>
 
-              <p className="mt-5 text-sm leading-7 text-white/60">
-                Logistics products serving 100,000+ active users, with
-                product initiatives that increased retention by 20% and
-                platform adoption by 25%.
-              </p>
+    <p className="mt-5 text-sm leading-7 text-white/60">
+      Logistics products serving 100,000+ active users, with
+      product initiatives that increased retention by 20% and
+      platform adoption by 25%.
+    </p>
 
-              <div className="mt-14 flex flex-wrap gap-2">
-                {["Logistics", "Payments", "Growth"].map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </article>
+    <div className="mt-14 flex flex-wrap gap-2">
+      {["Logistics", "Payments", "Growth"].map((tag) => (
+        <span
+          key={tag}
+          className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
 
-            <article className="rounded-[2rem] bg-[#252525] p-7 sm:p-9">
-              <p className="text-xs uppercase tracking-[0.15em] text-white/40">
-                03 — E-commerce
-              </p>
+    <Link
+      href="/case-studies/faramove"
+      className="mt-8 inline-flex items-center text-sm font-medium text-white transition-transform duration-300 hover:translate-x-1"
+    >
+      View case study →
+    </Link>
+  </article>
 
-              <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
-                ShopOnAlpha
-              </h3>
+  {/* SHOPONALPHA */}
+  <article className="rounded-[2rem] bg-[#252525] p-7 sm:p-9">
+    <p className="text-xs uppercase tracking-[0.15em] text-white/40">
+      03 — E-commerce
+    </p>
 
-              <p className="mt-5 text-sm leading-7 text-white/60">
-                Social commerce and escrow platform launched within four
-                months, supporting 18,000 Nigerian merchants and reducing
-                failed transactions from 9.2% to 2.1%.
-              </p>
+    <h3 className="mt-14 text-4xl font-medium tracking-[-0.03em]">
+      ShopOnAlpha
+    </h3>
 
-              <div className="mt-14 flex flex-wrap gap-2">
-                {["E-commerce", "Escrow", "Growth"].map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </article>
-          </div>
+    <p className="mt-5 text-sm leading-7 text-white/60">
+      Social commerce and escrow platform launched within four
+      months, supporting 18,000 Nigerian merchants and reducing
+      failed transactions from 9.2% to 2.1%.
+    </p>
 
-          {/* DIAMONDEDGE */}
-          <a
-            href="https://diamondedgeconstructionltd.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group mt-5 block rounded-[2rem] border border-white/10 bg-[#1e1e1e] p-7 transition-colors hover:bg-[#252525] sm:p-9"
-          >
-            <div className="grid items-center gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-              <div className="relative min-h-[260px] overflow-hidden rounded-[1.5rem] bg-[#dedbd2]">
-  <Image
-    src="/portfolio/images/diamondedge/diamondedge.png"
-    alt="DiamondEdge Construction website"
-    fill
-    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-    sizes="(max-width: 1024px) 100vw, 40vw"
-  />
+    <div className="mt-14 flex flex-wrap gap-2">
+      {["E-commerce", "Escrow", "Growth"].map((tag) => (
+        <span
+          key={tag}
+          className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+
+    <a
+  href="https://shoponalpha.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-flex items-center text-sm font-medium text-white transition-transform duration-300 hover:translate-x-1"
+>
+  View project →
+</a>
+
+  </article>
 </div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-white/40">
-                  Independent build
-                </p>
+{/* DIAMONDEDGE */}
+<a
+  href="https://diamondedgeconstructionltd.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mt-5 block rounded-[2rem] border border-white/10 bg-[#1e1e1e] p-7 transition-colors hover:bg-[#252525] sm:p-9"
+>
+  <div className="grid items-center gap-10 lg:grid-cols-[0.75fr_1.25fr]">
+    <div className="relative min-h-[260px] overflow-hidden rounded-[1.5rem] bg-[#dedbd2]">
+      <Image
+        src="/portfolio/images/diamondedge/diamondedge.png"
+        alt="DiamondEdge Construction website"
+        fill
+        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+        sizes="(max-width: 1024px) 100vw, 40vw"
+      />
+    </div>
 
-                <h3 className="mt-5 text-4xl font-medium tracking-[-0.03em] sm:text-5xl">
-                  DiamondEdge Construction
-                </h3>
+    <div>
+      <p className="text-xs uppercase tracking-[0.15em] text-white/40">
+        Independent build
+      </p>
 
-                <p className="mt-5 max-w-xl text-sm leading-7 text-white/60">
-                  Designed and built a professional digital presence for a
-                  construction company, including its website and AI-powered
-                  chatbot experience.
-                </p>
+      <h3 className="mt-5 text-4xl font-medium tracking-[-0.03em] sm:text-5xl">
+        DiamondEdge Construction
+      </h3>
 
-                <span className="mt-8 inline-flex items-center gap-3 border-b border-white/25 pb-2 text-sm font-medium">
-                  View project
-                  <span className="transition-transform group-hover:translate-x-1">
-                    ↗
-                  </span>
-                </span>
-              </div>
-            </div>
-          </a>
+      <p className="mt-5 max-w-xl text-sm leading-7 text-white/60">
+        Designed and built a professional digital presence for a
+        construction company, including its website and AI-powered
+        chatbot experience.
+      </p>
+
+      <span className="mt-8 inline-flex items-center gap-3 border-b border-white/25 pb-2 text-sm font-medium">
+        View project
+        <span className="transition-transform group-hover:translate-x-1">
+          ↗
+        </span>
+      </span>
+    </div>
+  </div>
+</a>
         </div>
       </section>
 
@@ -776,11 +796,11 @@ export default function Home() {
 
             <div className="mt-14 flex flex-wrap gap-4">
               <a
-                href="mailto:sinminsolaf@gmail.com"
-                className="rounded-full border border-[#171717]/20 px-7 py-3.5 text-sm font-medium transition-colors hover:bg-white"
-              >
-                sinminsolaf@gmail.com ↗
-              </a>
+    href="mailto:sinminsolaf@gmail.com"
+    className="rounded-full border border-[#171717]/20 px-7 py-3.5 text-sm font-medium transition-colors hover:bg-white"
+  >
+    sinminsolaf@gmail.com ↗
+  </a>
 
               <a
                 href="https://www.linkedin.com/in/sinminsolapeace"
