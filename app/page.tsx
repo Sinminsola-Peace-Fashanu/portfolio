@@ -603,17 +603,15 @@ export default function Home() {
             className="group mt-5 block rounded-[2rem] border border-white/10 bg-[#1e1e1e] p-7 transition-colors hover:bg-[#252525] sm:p-9"
           >
             <div className="grid items-center gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-              <div className="flex min-h-[260px] items-end rounded-[1.5rem] bg-[#dedbd2] p-7 text-[#171717]">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.15em] text-[#777]">
-                    Digital Experience
-                  </p>
-
-                  <p className="mt-3 text-2xl font-medium">
-                    Design · Development · Product
-                  </p>
-                </div>
-              </div>
+              <div className="relative min-h-[260px] overflow-hidden rounded-[1.5rem] bg-[#dedbd2]">
+  <Image
+    src="/portfolio/images/diamondedge/diamondedge.png"
+    alt="DiamondEdge Construction website"
+    fill
+    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+    sizes="(max-width: 1024px) 100vw, 40vw"
+  />
+</div>
 
               <div>
                 <p className="text-xs uppercase tracking-[0.15em] text-white/40">
