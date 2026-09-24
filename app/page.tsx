@@ -187,7 +187,7 @@ export default function Home() {
 
             <div className="mt-9">
               <p className="max-w-xl text-base leading-7 text-[#62605b] sm:text-lg">
-                I&apos;m Simi,  a a Product Manager who combines product thinking with a growing technical foundation to turn customer needs and business challenges into practical digital solutions.
+                I&apos;m Simi, a Product Manager who combines product thinking with a growing technical foundation to turn customer needs and business challenges into practical digital solutions.
               </p>
 
               {/* PRIMARY CTA */}
